@@ -30,6 +30,8 @@ group :test do
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
   # gem 'win32console', '1.3.2'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.0'
